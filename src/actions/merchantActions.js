@@ -24,7 +24,7 @@ export function ajaxLoading(status) {
 export function getMerchants() {
     return dispatch => {
         dispatch(ajaxLoading(true));
-        axios.get('http://demo0802426.mockable.io/merchants')
+        axios.get('http://www.mocky.io/v2/59b994573a0000f501f7fb05')
             .then(response => {
                 dispatch(setMerchants(response.data));
                 dispatch(ajaxLoading(false));
