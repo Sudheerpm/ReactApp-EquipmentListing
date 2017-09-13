@@ -6,11 +6,8 @@
 # testing
 /coverage
 
-# production
-/build
-
 # misc
-/.idea
+.idea
 .DS_Store
 .env.local
 .env.development.local
