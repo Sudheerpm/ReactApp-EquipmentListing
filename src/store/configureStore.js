@@ -11,7 +11,10 @@ const configureStore = () => {
         reducers,
         initialState,
         // Apply thunk middleware and add support for Redux dev tools in Google Chrome
-        compose(applyMiddleware(thunk), window.devToolsExtension && window.devToolsExtension())
+        window.devToolsExtension ?
+            compose(applyMiddleware(thunk), window.devToolsExtension())
+            :
+            applyMiddleware(thunk)
     );
 };
 
