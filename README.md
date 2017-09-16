@@ -15,7 +15,7 @@ Back-end API should be mocked.
 ## Data structure example
 Bid 
 
-```json
+```
 {
   id: string,
   carTitle: string,
@@ -26,7 +26,7 @@ Bid
 
 Merchant
 
-```json
+```
 {
   id: string,
   firstname: string,
