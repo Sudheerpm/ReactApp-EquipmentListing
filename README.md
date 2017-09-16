@@ -13,14 +13,21 @@ You can also use TypeScript to develop this task, but it is not required
 Back-end API should be mocked.
 
 ## Data structure example
-Bid {
+Bid 
+
+```json
+{
   id: string,
   carTitle: string,
   amount: number,
   created: string
 }
+```
 
-Merchant {
+Merchant
+
+```json
+{
   id: string,
   firstname: string,
   lastname: string,
@@ -30,6 +37,9 @@ Merchant {
   hasPremium: boolean,
   bids: Array<Bid>
 }
+```
 
-## Seed link
-https://github.com/auto1-oss
+## Run Project
+run `npm install`
+
+then `npm start`
