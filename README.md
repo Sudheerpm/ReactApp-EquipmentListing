@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Front-end Test Task
 ## Task
 
@@ -43,3 +44,7 @@ Equipment
 run `npm install`
 
 then `npm start`
+=======
+# ReactApp-EquipmentListing
+ReactApp-EquipmentListing
+>>>>>>> 475380e902072b12ae79a8bf7173fc576b90cc10
