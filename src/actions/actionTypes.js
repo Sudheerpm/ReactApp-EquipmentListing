@@ -1,5 +1,5 @@
-export const ADD_MERCHANT = 'ADD_MERCHANT';
-export const EDIT_MERCHANT = 'EDIT_MERCHANT';
-export const DELETE_MERCHANT = 'DELETE_MERCHANT';
-export const SET_MERCHANTS = 'SET_MERCHANTS';
+export const ADD_Equipment = 'ADD_Equipment';
+export const EDIT_Equipment = 'EDIT_Equipment';
+export const DELETE_Equipment = 'DELETE_Equipment';
+export const SET_Equipments = 'SET_Equipments';
 export const AJAX_LOADING = 'AJAX_LOADING';

@@ -74,7 +74,7 @@
     text-decoration: underline;
 }
 
-/* Premium icon in merchant list */
+/* Premium icon in Equipment list */
 td.premium {
     text-align: center;
 }
@@ -87,8 +87,8 @@ td.premium .glyphicon-remove {
     color: red;
 }
 
-/* Avatar image size in merchant list */
-img.avatar {
+/* Avatar image size in Equipment list */
+img.link {
     height: 32px;
     width: auto;
 }
@@ -97,14 +97,10 @@ img.avatar {
     color: red;
 }
 
-.merchant-submit {
+.Equipment-submit {
     margin-bottom: 1.5em;
 }
 
 .pager li {
     margin: 0 0.5em;
-}
-
-.bids .btn {
-    margin-bottom: 1.5em;
 }

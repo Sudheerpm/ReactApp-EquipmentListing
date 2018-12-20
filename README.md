@@ -1,12 +1,12 @@
 # Front-end Test Task
 ## Task
 
-Develop SPA which should manage merchants. A user can interact with:
- - list of merchants (better with pagination)
- - adding merchant (redux-form is allowed but not required)
- - merchant editing
- - merchant removing
- - sorted history of bids for each merchant
+Develop SPA which should manage Equipments. A user can interact with:
+ - list of Equipments (better with pagination)
+ - adding Equipment (redux-form is allowed but not required)
+ - Equipment editing
+ - Equipment removing
+ - sorted history of bids for each Equipment
 
 Front-end part should be developed as SPA with ES6, React and Redux.
 You can also use TypeScript to develop this task, but it is not required
@@ -24,7 +24,7 @@ Bid
 }
 ```
 
-Merchant
+Equipment
 
 ```
 {

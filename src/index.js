@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {Provider} from 'react-redux';
-// Initial action to load merchant list from API
-import { getMerchants } from './actions/merchantActions';
+// Initial action to load Equipment list from API
+import { getEquipments } from './actions/equipmentActions';
 // Store config
 import configureStore from './store/configureStore';
 // Service Worker
@@ -11,8 +11,8 @@ import registerServiceWorker from './registerServiceWorker';
 import App from './App';
 
 const store = configureStore();
-// Load merchant list from API as soon as application initiates
-store.dispatch(getMerchants());
+// Load Equipment list from Mock API 
+store.dispatch(getEquipments());
 
 ReactDOM.render(
     <Provider store={store}>
